@@ -15,7 +15,7 @@ function Nav() {
   const anchorRefF = React.useRef(null)
   const prevOpenF = React.useRef(openP)
 
-  const handleToggleP = () => {
+  const handleToggleP = () => {    
     setOpenP((prevOpen) => !prevOpen);
   }
   const handleCloseP = (event) => {

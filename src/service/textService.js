@@ -17,7 +17,7 @@ export const toAlternate = (string) => {
   })
   return res
 }
-
+      
 export const toInversecase = (string) => {
   let res = ''
   const margin = 32;
