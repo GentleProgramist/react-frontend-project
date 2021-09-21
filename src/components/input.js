@@ -6,7 +6,7 @@ export default function Input(props) {
 
   React.useEffect(() => {
     let style = {};
-    error? style.border = 'red solid 1px' : style.border = 'black solid 1px';
+    error? style.border = 'blue solid 1px' : style.border = 'black solid 1px';
     setStyle(style);
   }, [error])
 
@@ -19,7 +19,7 @@ export default function Input(props) {
         onChange={ onChange}
         // style={style}
       />
-      {error ? <div style={{color: 'red', fontSize: 12, paddingLeft: 12}}>{error}</div> : <div style={{paddingBottom: 18}}> </div>} 
+      {error ? <div style={{color: 'blue', fontSize: 12, paddingLeft: 12}}>{error}</div> : <div style={{paddingBottom: 18}}> </div>} 
     </>
   );
 }
