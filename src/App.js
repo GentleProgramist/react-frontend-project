@@ -8,7 +8,7 @@ const App = () => (
   <>
     <NotificationContainer />
     <Routes /> 
-  </>
+  </>     
 );
        
 export default App;
