@@ -19,12 +19,12 @@ function Home() {
   }
   const handleCapitalizationcase = () => {
     let tmp = toTitlecase(string)
-    setString(tmp)
+    setString(tmp)     
   }
   const handleAlternatingCapitals = () => {
     let tmp = toAlternate(string)
     setString(tmp)
-  }
+  }   
   const handleTitlecase = () => {
     let tmp = toTitlecase(string)
     setString(tmp)

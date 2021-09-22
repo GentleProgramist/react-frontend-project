@@ -14,7 +14,7 @@ const ApiService = {
         //     'Authorization':`Bearer ${JwtService.getToken()}`
         // };
     },
-
+   
     get(resource) {
         return fetch(`${siteConfig.apiUrl}/${resource}`);
         // return axios.get(`${siteConfig.apiUrl}/${resource}`).catch(error => {
