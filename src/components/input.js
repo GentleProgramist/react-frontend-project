@@ -15,7 +15,7 @@ export default function Input(props) {
       <input type={type} 
         name={name} 
         placeholder={placeholder} 
-        value={value} 
+        value={value}     
         onChange={ onChange}
         // style={style}
       />

@@ -22,7 +22,7 @@ function Nav() {
     if (anchorRefP.current && anchorRefP.current.contains(event.target)) {
       return;
     }   
-    setOpenP(false);
+    setOpenP(false);    
   }
   const handleToggleF = () => {
     setOpenF((prevOpen) => !prevOpen);
