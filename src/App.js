@@ -5,7 +5,7 @@ import { NotificationContainer } from 'react-notifications'
 import 'react-datepicker/dist/react-datepicker.css'
               
 const App = () => (
-  <>
+  <>   
     <NotificationContainer />
     <Routes /> 
   </>     
