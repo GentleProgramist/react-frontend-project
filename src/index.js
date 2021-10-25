@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom'
 
-ReactDOM.render((
+ReactDOM.render(( 
       <App />
     ), document.getElementById('root')
 );
