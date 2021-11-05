@@ -9,7 +9,7 @@ import {useStyles} from '../style/material_ui_style'
 function Nav() {
   const classes = useStyles()
   const [openP, setOpenP] = React.useState(false)
-  const anchorRefP = React.useRef(null)
+  const anchorRefP = React.useRef(null) 
   const prevOpenP = React.useRef(openP)
   const [openF, setOpenF] = React.useState(false)
   const anchorRefF = React.useRef(null)
