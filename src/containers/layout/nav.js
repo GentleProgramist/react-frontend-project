@@ -17,7 +17,7 @@ function Nav() {
        
   const handleToggleP = () => {    
     setOpenP((prevOpen) => !prevOpen);
-  }
+  } 
   const handleCloseP = (event) => {
     if (anchorRefP.current && anchorRefP.current.contains(event.target)) {
       return;
