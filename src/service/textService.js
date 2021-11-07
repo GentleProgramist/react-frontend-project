@@ -6,7 +6,7 @@ export const toTitlecase = (string) => {
   }).join(' ')
 }
 
-export const toAlternate = (string) => {
+export const toAlternate = (string) => { 
   let res = '';
   [...string].forEach((item, index) => {
     if(index%2 === 1) {
