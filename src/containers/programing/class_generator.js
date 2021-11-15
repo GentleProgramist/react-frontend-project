@@ -6,9 +6,9 @@ import Nav from '../layout/nav'
 
 const useStyles = makeStyles((theme) => ({
   codeLine: {
-    fontSize: 20,
+    fontSize: 20, 
     paddingTop: 5
-  },
+  }, 
 }))
 function ClassGenerator() {
   const classes = useStyles();
