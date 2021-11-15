@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 20, 
     paddingTop: 5
   }, 
-}))
+})) 
 function ClassGenerator() {
   const classes = useStyles();
   const [className, setClassName] = useState('')
