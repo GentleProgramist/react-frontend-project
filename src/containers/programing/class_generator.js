@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
 })) 
 function ClassGenerator() {
   const classes = useStyles();
-  const [className, setClassName] = useState('')
+  const [className, setClassName] = useState('') 
 
   return (
     <div>
