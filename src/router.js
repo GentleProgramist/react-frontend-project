@@ -23,29 +23,29 @@ export default function Routes() {
       <Router>
         <Route exact path='/' component={Home}>
         </Route>
-        <Route path='/list' component={List}>
+        <Route exact path='/list' component={List}>
         </Route>
-        <Route path='/json' component={Json}>
+        <Route exact path='/json' component={Json}>
         </Route>
-        <Route path='/base64' component={Base64}>
+        <Route exact path='/base64' component={Base64}>
         </Route>
-        <Route path='/regard' component={Regard}>
+        <Route exact path='/regard' component={Regard}>
         </Route>
-        <Route path='/cron' component={Cron}>
+        <Route exact path='/cron' component={Cron}>
         </Route>
-        <Route path='/binary' component={Binary}>
+        <Route exact path='/binary' component={Binary}>
         </Route>
-        <Route path='/textComparison' component={TextComparison}>
+        <Route exact path='/textComparison' component={TextComparison}>
         </Route>
-        <Route path='/classGenerator' component={ClassGenerator}>
+        <Route exact path='/classGenerator' component={ClassGenerator}>
         </Route>
-        <Route path='/simpleSavingCalculator' component={SimpleSavingsCalculator}>
+        <Route exact path='/simpleSavingCalculator' component={SimpleSavingsCalculator}>
         </Route>
-        <Route path='/savingCalculator' component={SavingsCalculator}>
+        <Route exact path='/savingCalculator' component={SavingsCalculator}>
         </Route>
-        <Route path='/calculator' component={Calculator}>
+        <Route exact path='/calculator' component={Calculator}>
         </Route>
-        <Route path='/loanCalculator' component={LoanCalculator}>
+        <Route exact path='/loanCalculator' component={LoanCalculator}>
         </Route>
       </Router>
     );
